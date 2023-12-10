@@ -42,6 +42,13 @@ Flags:
   -t, --print-timings                                      If specified, include the request timings
 ```
 
+### Example 
+
+An example HAR file for a request to `https://example.org` using a file exported from Chrome and invoked with the command `harv file.har -HCuUt`
+
+![image](https://github.com/Vitineth/harv/assets/9435503/71be9de7-741c-4b88-a13f-32831b3db782)
+
+
 ## My HAR File Doesn't Work
 
 If you have a HAR file that doesn't work properly, please raise an issue with the error message. You **should not**
